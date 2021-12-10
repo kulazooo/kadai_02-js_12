@@ -1,0 +1,79 @@
+body {
+    background-color: #ff6600;
+}
+
+.wrapper{
+    display: flex;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.box{
+  display: flex;
+  margin-top: 0px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+.box p{
+  position: absolute;
+  margin-top: 190px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reset{
+  width:340px;
+  height:36px;
+  margin: 10px;
+  border:1px solid #FFF;
+  background-color:#666;
+  color:#FFF;
+  border-radius:4px;
+}
+
+.buttons button{
+    width:100px;
+    height:50px;
+    border:1px solid #FFF;
+    background-color:#eee;
+    border-radius:4px;
+    margin:8px;
+    color:#000;
+    cursor:pointer;
+    outline:none;
+  }
+  .buttons button:hover{
+    color:black;
+    background-color:#FFCC00;
+    font-weight:bold;
+  }
+   
+  .message{
+    width:320px;
+    margin:8px;
+    padding:8px;
+    border:1px solid #ccc;
+    border-radius:4px;
+    color:#fff;
+  }
+  .message .win{
+    color: #fff700;
+    font-weight:bold;
+  }
+  .message .lose{
+    color: #fff700;
+    font-weight:bold;
+  }
+  .message .draw{
+    color: #fff700;
+    font-weight:bold;
+  }
